@@ -1,24 +1,25 @@
 {
-  "compilerOptions": {
-    "target": "ES5",
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "lib": ["DOM", "DOM.Iterable", "ES5"],
-    "allowJs": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-    "allowImportingTsExtensions": true,
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "lib": ["DOM", "DOM.Iterable", "ES5"],
+        "allowJs": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "allowImportingTsExtensions": true,
 
-    /* Linting */
-    
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
-  },
-  "include": ["src"]
+        /* Linting */
+
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
 }
